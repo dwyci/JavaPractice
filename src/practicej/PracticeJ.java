@@ -1,16 +1,21 @@
 
 package practicej;
-
+import java.util.Scanner;
 public class PracticeJ {
 
     public static void main(String[] args) {
-       
-        int i =1;
-        while (i < 5){
-           System.out.println("Loop  " + i);
-           i = i+1;
+    Scanner sc = new Scanner(System.in);
+        int x = Integer.parseInt(sc.nextLine());
+        
+        if (x < 5){
+            System.out.print("your number is too low\n");
+        } else {
+            System.out.print("Your number is too high\n");
         }
         
-    }
+        
+        
     
+   }
+         
 }
